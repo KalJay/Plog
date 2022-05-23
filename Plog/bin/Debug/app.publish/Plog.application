@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <assemblyIdentity name="Plog.application" version="1.0.0.6" publicKeyToken="18843f52c82c2466" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:publisher="Knox Grammar School" asmv2:product="Plog" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <deployment install="true" mapFileExtensions="true">
+    <subscription>
+      <update>
+        <beforeApplicationStartup />
+      </update>
+    </subscription>
+    <deploymentProvider codebase="file://kgs/staff/install/Plog/Plog.application" />
+  </deployment>
+  <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+    <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
+  </compatibleFrameworks>
+  <dependency>
+    <dependentAssembly dependencyType="install" codebase="Application Files\Plog_1_0_0_6\Plog.exe.manifest" size="8205">
+      <assemblyIdentity name="Plog.exe" version="1.0.0.6" publicKeyToken="18843f52c82c2466" language="neutral" processorArchitecture="msil" type="win32" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tPIjWEe0zMnJJqhN5/CS2smYw78NkCZdAMfZ2URbmLk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=KGS\johnsk" issuerKeyHash="e2606657039038e6c01946e24981991804604aef" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Y315H7lKw3wOlIN1vNxCuREu40ROoX3WWQlzvDSZCmw=</DigestValue></Reference></SignedInfo><SignatureValue>SQMDfidafLO/z/JraznqaWbTRxB/eGtuNvAxruTPjGl1OjeJL5T0bqQ9vtpT+ftAphmpgYTTSI6/gGfbLNZv8DB6aP1P1xMK5BOwqXR16Cik1bmznZxdqvpPJflaPw/w9nlSl1+Y1lFko0rK8ho5s2LZdRyGVo6MBgos8bJ8VHw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>r2oaxaIGDICMX8lx0MlSC9po7FL13rSF+UQhHWVAsf3vbuhpokxJa42O0i5vJxpY33avDJhmlOgu/nLIN7XfCNmQ8BTVbY+aTfq/GMGlsWjH2upjL1O03A/VPYF8RyNGw3LPDsj1JJjvzqLtxH9M5t9z4GBzEpUFTEeYGFgYUtk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6c0a9934bc730959d67da14e44e32e11b942dcbc7583940e7cc34ab91f797d63" Description="" Url=""><as:assemblyIdentity name="Plog.application" version="1.0.0.6" publicKeyToken="18843f52c82c2466" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KGS\johnsk</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1lVLbKOBUITeytzMwakOt7VP0yuBb4HM/DEokID4vBM=</DigestValue></Reference></SignedInfo><SignatureValue>XVWzmaKxScMAf75bGrc0awIPtiav5eTfI1xhcPbRN9nqBLQb4Vw1dAuBGLoYdl9uULMfA/G5gaVzLjTNuax8SJb0zqDzmUEM+Z7a+wdDR157/FJv6VP3IC8xaBsxtwKEJwd9yugRb3/BgamW/pIlJpP06i5d3Z8eiy9bblTFlp4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>r2oaxaIGDICMX8lx0MlSC9po7FL13rSF+UQhHWVAsf3vbuhpokxJa42O0i5vJxpY33avDJhmlOgu/nLIN7XfCNmQ8BTVbY+aTfq/GMGlsWjH2upjL1O03A/VPYF8RyNGw3LPDsj1JJjvzqLtxH9M5t9z4GBzEpUFTEeYGFgYUtk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQHoPXh5ApV6hOACjMyXbfzDANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQASwBHAFMAXABqAG8AaABuAHMAazAeFw0yMjA1MTEwMjIzNTFaFw0yMzA1MTEwODIzNTFaMB8xHTAbBgNVBAMeFABLAEcAUwBcAGoAbwBoAG4AcwBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvahrFogYMgIxfyXHQyVIL2mjsUvXetIX5RCEdZUCx/e9u6GmiTElrjY7SLm8nGljfdq8MmGaU6C7+csg3td8I2ZDwFNVtj5pN+r8YwaWxaMfa6mMvU7TcD9U9gXxHI0bDcs8OyPUkmO/Oou3Ef0zm33PgYHMSlQVMR5gYWBhS2QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAESPSuCOXVs2Xrf7/J98hcLLU1XX9WJM0bZEdK0a2jJJeMBbrbDbScC5ptzevud2RdusK8i0+lFqp4QiPrPhRp2vt2OL9h/mP53VhV0olHcb459ug9is1F7x0RxlvITYcliXDLxCsVxcLy5BmewlObrRvlGu/DsoNPeyFhfzz9B4</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
